@@ -12,9 +12,11 @@
       <div class="vld-icon">
         <slot name="before"></slot>
         <slot name="default">
-          <component :is="loader" :color="color" :width="width" :height="height"></component>
+          <component :is="loader" :color="color" :width="width" :height="height" class="text-center"></component>
         </slot>
+        <h3 :class="'mt-3 text-center text-' + color">
         <slot name="after"></slot>
+      </h3>
       </div>
     </div>
   </transition>

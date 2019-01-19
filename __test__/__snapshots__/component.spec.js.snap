@@ -17,6 +17,7 @@ exports[`Loading component renders when active 1`] = `
   >
      
     <svg
+      class="text-center"
       height="64"
       stroke="#000"
       viewBox="0 0 38 38"
@@ -54,6 +55,9 @@ exports[`Loading component renders when active 1`] = `
       </g>
     </svg>
      
+    <h3
+      class="mt-3 text-center text-undefined"
+    />
   </div>
 </div>
 `;
@@ -75,6 +79,7 @@ exports[`Loading component renders when not active 1`] = `
   >
      
     <svg
+      class="text-center"
       height="64"
       stroke="#000"
       viewBox="0 0 38 38"
@@ -112,6 +117,9 @@ exports[`Loading component renders when not active 1`] = `
       </g>
     </svg>
      
+    <h3
+      class="mt-3 text-center text-undefined"
+    />
   </div>
 </div>
 `;
